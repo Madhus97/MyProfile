@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Inline Css</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
         <style>
          /* /*   p,h5 {
                 font-size:40px;
@@ -18,26 +21,50 @@
 
             #heading{
                 color: cornflowerblue;
-            }
+            }*/
 
-            h5{
+            span{
                 font-size:40px;
                 color: red;
-            } */
+                background-color: blue;
+            } 
 
-            *{
+            *  /* use for universal tag */
+            {
                 color: cornflowerblue;
                 font-size:40px;
+                
             }
+            body{
+            background-image: url("../resource/Profile.jfif");  background-repeat: no-repeat ;
+            font-family: 'Roboto', sans-serif;
+        }
+        .para{
+            border: 2px; 
+            border-style: solid;
+            border-radius: 20px; color: blue;
+            margin-left: 20px;
+            
 
+        }
+        ul{
+            list-style: circle;
+        }
         </style>
     </head>
     <body>
+
+        <h3 style="display: inline"; background-color="red">My Hobbies:</h3>
+        <ul>
+            <li>Reading Books</li>
+            <li>Playing Games</li>
+            <li>Watching movie</li>
+        </ul>
         <p class="para">this is paragraph 1</p>
         <p class="para">this is paragraph 1</p>
         <p>this is paragraph 1</p>
 
         <h4 id="heading">this is heading</h4>
-        <h5>this is heading 5 </h5>
+        <span>this is heading 5 </span>
     </body>
 </html>
