@@ -1,57 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My profile</title>
-        <style>
-            p
-            {  font-size: 15px; color: rgb(129, 30, 32)
 
-            }
-            body{background-color: rgb(189, 200, 209);}
-            a{color: black;}
+<head>
+    <title>My profile</title>
+    <style>
+        p {
+            font-size: 15px;
+            background-color: rgb(72, 65, 65);
+            font-size: 15px;
+            color: rgb(225, 237, 246);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 2px;
 
-            u{
-            margin-left: 20px;
-            margin-right: 40px;
         }
-        </style>
+
+        body {
+           /* background-color: rgb(189, 200, 209);--> */
+            background-image: url("D:\\Angular\\MyProfile\\resource\\background.jpg");
+         
+            
         
 
-        <link rel="icon" type="image/x-icon" href="D:\Angular\Myprofile\resource\Profile.jfif">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <header>
-            <div> <p>
-                
-                <i class="fa fa-user fa-1x" aria-hidden="true" font-size: 15px; color: rgb(129, 30, 32) style="margin-right:10px;"></i> Madhavi Shinde &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-                <i class="fa fa-envelope fa-1x" aria-hidden="true" font-size: 15px; color: rgb(129, 30, 32) style="margin-right:10px;"></i> madhusshinde@gmail.com &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                <i class="fa fa-mobile fa-1x" aria-hidden="true" font-size: 15px; color: rgb(129, 30, 32) style="margin-right:10px;"></i>9145 4818 81
-                
+        }
+
+        u {
+            margin-left: 20px;
+            margin-right: 40px;
+            background-color: rgb(72, 65, 65);
+            font-size: 20px;
+            color: rgb(226, 233, 238);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 0px;
+        }
+
+        .frame1 {
+            background-color: aquamarine;
+
+            border-color: black;
+            border-width: 2px;
+        }
+    </style>
+
+
+    <link rel="icon" type="image/x-icon" href="D:\Angular\Myprofile\resource\Profile.jfif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="header1">
+
+                <i class="fa fa-user fa-1x" aria-hidden="true" font-size: 15px; color: rgb(129, 30, 32)
+                    style="margin-right:10px;"></i> Madhavi Shinde &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-envelope fa-1x" aria-hidden="true" font-size: 15px; color: rgb(129, 30, 32)
+                    style="margin-right:10px;"></i> madhusshinde@gmail.com &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <i class="fa fa-mobile fa-1x" aria-hidden="true" font-size: 15px; color: rgb(129, 30, 32)
+                    style="margin-right:10px;"></i>9145 4818 81&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
             </p>
         </div>
-              
-        </header>
-        <hr>
-        <br>
-        <a href="Home.html" target="myframe"><u>Home</u></a>
 
-        <a href="tech.html" target="myframe"><u>Teach Stack</u>|</a>
-        <a href="Education.html" target="myframe"><u>Education</u></a>|
-        <a href="project.Html" target="myframe"><u>Project</u></a>|
-        <a href="hobbies .html" target="myframe"><u>Hobbies</u></a>|
-        <a href="personal.html" target="myframe"><u>Personal Details</u></a>|
-        <a href="other.html" target="myframe"><u>Other</u></a>
-        <hr>
-        <iframe height="500" width="900" name="myframe" src="Home.html" style="border:none"></iframe>
+    </header>
+    <hr>
+    <br>
+    <a href="Home.html" target="myframe" class="navgation"><u>Home</u></a>
 
-        <footer>
+    <a href="tech.html" target="myframe" class="navgation"><u>Teach Stack</u></a>
+    <a href="Education.html" target="myframe" class="navgation"><u>Education</u></a>
+    <a href="project.Html" target="myframe" class="navgation"><u>Project</u></a>
+    <a href="hobbies .html" target="myframe" class="navgation"><u>Hobbies</u></a>
+    <a href="personal.html" target="myframe" class="navgation"><u>Personal Details</u></a>
+    <a href="other.html" target="myframe" class="navgation"><u>Other</u></a>
+    <hr>
+    <div style="justify-content:center; display: flex; "><iframe class="frame1" height="400" width="900" name="myframe"
+            src="Home.html" background-color: blanchedalmond;></div><br>
 
-            <span>Follow Me</span>
-            <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU3NDc1MjM3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square fa-1x" aria-hidden="true"></i></a>
-            <!-- <a href=><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a> -->
+           
+            <footer>
 
-        </footer>
-    </body>
+        <span><u>Follow Me</u></span>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square fa-1x" aria-hidden="true"></i></a>
+        <!-- <a href=><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a> -->
+
+    </footer>
+</body>
+
 </html>
